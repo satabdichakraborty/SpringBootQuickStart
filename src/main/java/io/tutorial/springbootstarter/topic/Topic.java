@@ -35,5 +35,11 @@ public class Topic {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
+	@Override
+	public String toString() {
+		
+		return "Topic with id = "+id+" : name = "+name+" : description = "+description;
+	}
 
 }
